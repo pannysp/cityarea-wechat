@@ -3,6 +3,6 @@
 
 ### 此版本的省市区数据为本地JS数据，免去请求加载数据了。
 
-### 大家直接看源码，停简单的，先看下面的动图：
+### 大家直接看源码，挺简单的，先看下面的动图：
 
 <img src="https://github.com/pannysp/cityarea-wechat/blob/master/images/demo.gif" width="281">
