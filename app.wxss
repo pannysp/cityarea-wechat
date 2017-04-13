@@ -1,0 +1,51 @@
+/**全局CSS**/
+
+page{
+    width: 100%;
+    height: 100%;
+    color: #333;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    line-height: 1.5;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+icon {
+    vertical-align: middle;
+}
+
+/* 颜色 */
+.red{color: #f73b5a;}
+.gray{color: #9e9e9e;}
+.green{color: #2b9b2d;}
+.blue{color: #2d50ac;}
+
+.container {
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+} 
+
+
+button{border: none; background: transparent; height: 2.58em; color: #fff; background-color:#f73b5a; border-radius: 4px; box-sizing:content-box;min-height: 2.58em; line-height: 2.58em;}
+
+.btn,.btn:visited{display: block; padding: 2px 10px; height: 2.58em; line-height: 2.58em; color: #fff; background-color:#2d50ac; vertical-align: middle;-webkit-tap-highlight-color: rgba(0,0,0,0); text-align: center; border-radius: 4px;}
+
+.redbtn,.redbtn:visited{display: block; padding: 2px 10px; height: 2.58em; line-height: 2.58em; color: #fff; background-color:#f73b5a; vertical-align: middle;-webkit-tap-highlight-color: rgba(0,0,0,0); text-align: center; border-radius: 4px;}
+
+
+.graybtn,.graybtn:visited{display: block; padding: 2px 10px; height: 2.58em; line-height: 2.58em; color: #999; background-color:#eee; vertical-align: middle;-webkit-tap-highlight-color: rgba(0,0,0,0); text-align: center; border-radius: 4px;}
+
+
+/*输入框*/
+textarea,
+input.text {
+    height: 2.58em;
+    min-height: 2.58em;
+    line-height: 2.58em;
+    background: #fff;
+    border: 1px solid #ddd;
+}

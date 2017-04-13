@@ -1,0 +1,15 @@
+<view class="box">
+    <picker-view indicator-style="height: 50px;" style="width: 100%; height: 150px;" value="{{value}}" bindchange="bindChange">
+        <picker-view-column>
+            <view wx:for="{{provinces}}">{{item}}</view>
+        </picker-view-column>
+        <picker-view-column>
+            <view wx:for="{{citys}}">{{item}}</view>
+        </picker-view-column>
+        <picker-view-column>
+            <view wx:for="{{areas}}">{{item}}</view>
+        </picker-view-column>
+    </picker-view>
+</view>
+
+<view class="box">{{name}}</view>

@@ -1,0 +1,8 @@
+/*
+ * 省市区 - 收货地址
+*/
+
+
+.box{padding: 20px 15px;}
+
+picker-view view{line-height: 50px; padding-left:10px;}
